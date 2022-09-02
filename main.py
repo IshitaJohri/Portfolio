@@ -41,7 +41,7 @@ local_css("/app/portfolio/style/style.css")
 # ---- LOAD ASSETS ----
 lottie_url = "https://assets8.lottiefiles.com/packages/lf20_1LhsaB.json"
 lottie_json = load_lottieurl(lottie_url)
-img_gmail = Image.open("/app/portfolio/images/img.png")
+img_gmail = Image.open("./app/portfolio/images/img.png")
 
 # ---- SCROLL TO TOP  ----
 if "counter" not in st.session_state:
