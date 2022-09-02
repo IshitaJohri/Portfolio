@@ -1,0 +1,10 @@
+
+/* Hide Streamlit Branding  */
+body {background: #feffb8 }
+MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+button {color: #11A27B;
+        box-sizing: 10%;
+        height: 4em;
+        width: 20em;}
