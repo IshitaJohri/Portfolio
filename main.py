@@ -4,7 +4,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title="Ishita Johri", layout="centered")
+st.set_page_config(page_title="Ishita Johri", layout="centered", page_icon="ℹ️")
 
 def load_lottieurl(url: str):
     r = requests.get(url)
